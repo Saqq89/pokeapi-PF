@@ -2,6 +2,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { PokemonService } from 'src/app/services/pokemon.service';
 import {MatPaginator} from '@angular/material/paginator';
 import {MatTableDataSource} from '@angular/material/table';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -15,11 +16,10 @@ displayedColumns: string[] = ['position', 'image', 'name'];
 data: any [] = [];
 datasource = new MatTableDataSource<any>(this.data);
 pokemons = [];
-
 @ViewChild(MatPaginator, {static: true }) paginator: MatPaginator;
 
 
-constructor(private PokeService: PokemonService) { 
+constructor(private PokeService: PokemonService, private router: Router) { 
 
 
 }
@@ -64,5 +64,8 @@ applyFilter(event: Event) {
   }
 }
 
+getRow(row: any) {
+  this.router.navigateByUrl(`pokeDetail/${row.position}`)
+}
 
 }

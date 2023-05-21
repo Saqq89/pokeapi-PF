@@ -6,17 +6,21 @@
     text-align: center;
 }
 
-table {
+.table {
     min-width: 80%;
     margin: auto;
     text-align: center;
 }
 
-.mat-header-cell {
+.header-cell {
     color: black;
     font-weight: bold;
-    text-align: center;
+    text-align:center;
     font-size: 15px;
+}
+
+.mat-cell {
+    text-align: center;
 }
 
 //even
@@ -28,7 +32,7 @@ table {
 //odd
 //Representa elementos cuya posición numérica en una serie de hermanos es impar: 1, 3, 5, etc.
 .mat-row:nth-child(odd) {
-    background-color: $red;
+    background-color:cadetblue;
     & .mat-cell {
         color: $white;
     }
@@ -46,6 +50,8 @@ table {
 ::ng-deep.mat-paginator {
     width: 80%;
     margin: auto;
+    background-color: white;
+    border-color: black;
 }
 
 .mat-form-field {
