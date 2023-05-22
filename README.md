@@ -1,34 +1,26 @@
-poketable
-# Pokeapi
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
 # pokeapi-PF
 pokemon's pokedex - first generation
 
-Para este proyecto utilizamos el lenguaje de Angular
-Comando necesario para instalar el lenguaje > npm install -g @angular/cli
+##Lenguajes utilizados
+Para este proyecto utilizamos el lenguaje de Angular version(15.2.6) como frontend, ademas de las librerias de Angular Material version(15.2.9)
+Comando necesario para instalar Angular CLI > npm install -g @angular/cli
+Comando necesario para instalar Angular Material > ng add @angular/material
+
+Como backend utilizamos los modulos de NodeJS version(18.14.1) y una base de datos online llamada pokeAPI version(2.0)
+Para instalar los modulos de Node JS usamos > npm install
+Para Descargar NodeJS > https://nodejs.org/es/download
+Para usar la base de datos de PokeAPI > https://pokeapi.co/docs/v2
+
+##Capturas
+Tabla
+![image](https://github.com/Saqq89/pokeapi-PF/assets/115855807/0d6df827-7836-4cfd-8dc4-2db2ac171358)
+
+Detalles de pokemon
+![image](https://github.com/Saqq89/pokeapi-PF/assets/115855807/1c67a786-55c8-4b60-a04c-f437b0dcc4a3)
+
+#Link de la pagina funcionando
+https://saqqedu-pokeapi.netlify.app/
+
+##Miembros
+SERGIO ALBERTO QUINTERO QUIROZ
+EDWARD MIGUEL MORA ALVAREZ
