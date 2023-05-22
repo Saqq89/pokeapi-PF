@@ -1,34 +1,20 @@
-poketable
-# Pokeapi
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
 # pokeapi-PF
 pokemon's pokedex - first generation
 
-Para este proyecto utilizamos el lenguaje de Angular
-Comando necesario para instalar el lenguaje > npm install -g @angular/cli
+## Lenguajes Utilizados
+Como lenguaje Frontend se utilizo Angular CLI y Angular Material las versiones para ambas es 15.2.0
+Comando necesario para instalar el Angular CLI > npm install -g @angular/cli
+Comando necesario para instalar el Angular Material > ng add @angular/material
+
+Como Lenguaje backend usamos los modulos de NodeJS version (18.14.1), ademas de utilizar una base de datos en linea
+de nombre PokeAPI version(2.0)
+Comando necesario para instalar los modulos de Node JS > npm install (teniendo en cuenta que no tengas
+descargado NodeJS el link es el siguiente: https://nodejs.org/es/download).
+El link para la base de datos de pokeAPI es el siguiente: https://pokeapi.co/docs/v2
+
+#Capturas
+##Tabla de pokemones
+![image](https://github.com/Saqq89/pokeapi-PF/assets/115855807/3c767bc4-9979-49bb-8f15-6d749bafb908)
+##Detalles de pokemones
+![image](https://github.com/Saqq89/pokeapi-PF/assets/115855807/32b2344f-c87e-4a72-9fac-9334e279916a)
+
